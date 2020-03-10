@@ -1,0 +1,29 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <title>Shipping</title>
+    <link rel='stylesheet' href='https://maxcdn.bootstrapcdn.com/bootstrap/3.2.0/css/bootstrap.min.css'>
+  </head>
+  <body>
+    <div class="container text-center">
+      <h2>Shipping is Fun!</h2>
+      <br>
+      <h4>Enter your package dimensions:</h4>
+      <form action="/parcels" method="post">
+        <label for="length">Length</label>
+        <input id="length" name="length" type="text">
+
+        <label for="width">Width</label>
+        <input id="width" name="width" type="text">
+
+        <label for="height">Height</label>
+        <input id="height" name="height" type="text">
+        <hr>
+        <label for="weight">Weight</label>
+        <input id="weight" name="weight" type="text">
+        <hr>
+        <button type="submit">Submit</button>
+      </form>
+    </div>
+  </body>
+</html>
